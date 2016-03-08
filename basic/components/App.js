@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, browserHistory } from 'react-router'
+import { FormattedMessage } from 'react-intl'
 
 export default function App({ children }) {
   return (
@@ -7,7 +8,7 @@ export default function App({ children }) {
       <header>
         Links:
         {' '}
-        <Link to="/">Home</Link>
+        <Link to="/"><FormattedMessage id="home" defaultMessage="Home" /></Link>
         {' '}
         <Link to="/foo">Foo</Link>
         {' '}
