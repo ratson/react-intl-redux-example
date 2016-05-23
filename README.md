@@ -1,5 +1,7 @@
-Example for react-intl-redux
+[obsoleted] Example for react-intl-redux
 =============================
+
+**moved to https://github.com/ratson/react-intl-redux/tree/master/examples**
 
 ```bash
 cd basic
